@@ -1,0 +1,8 @@
+move_towards_point(mouse_x, mouse_y, 2);
+var _dist = point_distance(x, y, mouse_x, mouse_y);
+image_angle = point_direction(x, y, mouse_x, mouse_y)-90;
+
+if _dist <= speed
+{
+    speed = 0;
+}
